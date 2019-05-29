@@ -37,3 +37,5 @@ else
 fi
 unset __conda_setup
 # <<< conda init <<<
+
+curl 'wttr.in/?format=3&m'
