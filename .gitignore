@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!.inputrc
+!.bash_aliases
+!.bashrc_minimal
+!.profile_minimal
+!.new_bash_setup.sh
