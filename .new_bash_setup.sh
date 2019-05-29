@@ -1,5 +1,10 @@
 #!/bin/bash
-cp ~/.bashrc ~/.bashrc.bak
+
+mv * ~/
+
+if test -f "~/.bashrc"; then
+    cp ~/.bashrc ~/.bashrc.bak
+fi
 
 if test -f "~/.profile"; then
     cp ~/.profile ~/.profile.bak
