@@ -25,3 +25,7 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+echo ""
+date '+%Y-%m-%d   %H:%M:%S'
+curl 'wttr.in/?format=3&m'
