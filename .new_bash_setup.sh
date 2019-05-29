@@ -1,6 +1,7 @@
 #!/bin/bash
 
-mv * ~/
+shopt -s dotglob
+mv ./* ~/
 
 if test -f "~/.bashrc"; then
     cp ~/.bashrc ~/.bashrc.bak
@@ -10,7 +11,9 @@ if test -f "~/.profile"; then
     cp ~/.profile ~/.profile.bak
 fi
 
-cp .bashrc_minimal .bashrc
-cp .profile_minimal .profile
+cp ~/.bashrc_minimal ~/.bashrc
+cp ~/.profile_minimal ~/.profile
 
 source ~/.bashrc
+cd ~
+rm -rf ubuntu_setup
