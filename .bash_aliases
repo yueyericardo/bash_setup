@@ -10,6 +10,7 @@ alias sc='source ~/.bashrc'
 # cd
 alias ..='cd ..'
 alias ~='cd ~'
+alias -='cd -'
 alias dev='cd ~/dev/'
 
 # command
