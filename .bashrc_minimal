@@ -43,7 +43,3 @@ else
 fi
 unset __conda_setup
 # <<< conda init <<<
-
-#echo ""
-date '+%Y-%m-%d   %H:%M:%S'
-curl 'wttr.in/?format=3&m'
