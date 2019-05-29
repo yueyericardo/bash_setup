@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf ~/.git
 shopt -s dotglob
 mv ./* ~/
 
