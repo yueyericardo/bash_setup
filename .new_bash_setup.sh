@@ -16,4 +16,4 @@ cp ~/.profile_minimal ~/.profile
 
 source ~/.bashrc
 cd ~
-rm -rf ubuntu_setup
+rm -rf bash_setup
