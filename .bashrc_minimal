@@ -1,3 +1,9 @@
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
 # general path
 export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
 
@@ -38,4 +44,6 @@ fi
 unset __conda_setup
 # <<< conda init <<<
 
+#echo ""
+date '+%Y-%m-%d   %H:%M:%S'
 curl 'wttr.in/?format=3&m'
