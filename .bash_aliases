@@ -3,7 +3,7 @@ alias ll='ls -l -h'
 alias la='ls -l -a -h'
 
 # alias-related
-alias myalias='cat ~.bash_aliases'
+alias myalias='cat ~/.bash_aliases'
 alias addalias='vim ~/.bash_aliases'
 alias sc='source ~/.bashrc'
 
