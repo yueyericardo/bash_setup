@@ -3,11 +3,11 @@
 shopt -s dotglob
 mv ./* ~/
 
-if test -f "~/.bashrc"; then
+if [ -f ~/.bashrc ]; then
     cp ~/.bashrc ~/.bashrc.bak
 fi
 
-if test -f "~/.profile"; then
+if [ -f ~/.profile ]; then
     cp ~/.profile ~/.profile.bak
 fi
 
