@@ -12,7 +12,7 @@ alias ..='cd ..'
 alias ...="cd ../.."
 alias ~='cd ~'
 alias dev='cd ~/dev/'
-
+alias tfani='cd ~/dev/tfani'
 # command
 alias jn='jupyter-notebook'
 alias jnb='cd ~; jupyter notebook &'
