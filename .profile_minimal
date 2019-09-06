@@ -28,4 +28,4 @@ fi
 
 #echo ""
 date '+%Y-%m-%d   %H:%M:%S'
-curl 'wttr.in/?format=3&m'
+curl 'wttr.in/?format=3&m' --connect-timeout 1 --max-time 1
