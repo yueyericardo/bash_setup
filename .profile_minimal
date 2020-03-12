@@ -27,5 +27,5 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 #echo ""
-date '+%Y-%m-%d   %H:%M:%S'
-curl 'wttr.in/?format=3&m' --connect-timeout 1 --max-time 1
+#date '+%Y-%m-%d   %H:%M:%S'
+#curl 'wttr.in/?format=3&m' --connect-timeout 1 --max-time 1
