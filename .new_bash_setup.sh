@@ -12,8 +12,8 @@ if [ -f ~/.profile ]; then
     cp ~/.profile ~/.profile.bak
 fi
 
-cp ~/.bashrc_minimal ~/.bashrc
-cp ~/.profile_minimal ~/.profile
+mv ~/.bashrc_minimal ~/.bashrc
+mv ~/.profile_minimal ~/.profile
 
 source ~/.bashrc
 cd ~
