@@ -5,7 +5,7 @@ case $- in
 esac
 
 # general path
-export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
+export PATH=$PATH:~/bin:/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin
 
 # color
 alias ls='ls --color'
