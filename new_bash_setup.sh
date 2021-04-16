@@ -18,4 +18,6 @@ cp .profile_minimal ~/.profile
 
 source ~/.bashrc
 cd ~
-echo DONE
+
+echo
+echo Tips: Feel free to edit ~/.bash_aliases to add more aliases
