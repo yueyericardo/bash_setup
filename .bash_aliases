@@ -12,18 +12,13 @@ alias ..='cd ..'
 alias ...="cd ../.."
 alias ~='cd ~'
 alias dev='cd ~/dev/'
-alias tfani='cd ~/dev/tfani'
 # command
 alias jn='jupyter-notebook'
 alias jnb='cd ~; jupyter notebook &'
 alias tbb='tensorboard --logdir=~/dev/tfani/logs/ --port 6491 &'
 
-alias tf='conda activate tf-nightly'
-alias tf-updated='conda activate tf-updated'
 # watch
 alias wnvidia='watch --color -n 1 -d nvidia-smi '
 alias wls='watch --color -n 1 -d ls -l -a'
 alias wlsh='watch --color -n 1 -d ls -l -a -h'
 
-alias cpu75='sudo python /home/richard/program/limitgx.py 75'
-alias cpu-1='sudo python /home/richard/program/limitgx.py -1'
