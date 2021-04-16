@@ -4,12 +4,12 @@ cp .bash_aliases ~/
 cp .inputrc ~/
 
 if [ -f ~/.bashrc ]; then
-    echo 'Backup current ~/.bashrc to ~/.bashrc.bak'
+    echo 'Backed up current ~/.bashrc to ~/.bashrc.bak'
     cp ~/.bashrc ~/.bashrc.bak
 fi
 
 if [ -f ~/.profile ]; then
-    echo 'Backup current ~/.profile to ~/.profile.bak'
+    echo 'Backed up current ~/.profile to ~/.profile.bak'
     cp ~/.profile ~/.profile.bak
 fi
 
