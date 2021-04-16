@@ -5,7 +5,7 @@
 - Use `tab` to auto complete
 - Use `up` and `down` to search history
 - Customize aliases in seperate file
-- Show git branch 
+- Show git branch if possible
 
 ### Screenshot
 <img width=70% src="resc/screenshot.png">
