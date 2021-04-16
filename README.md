@@ -4,7 +4,7 @@
 - Colorful
 - Use `tab` to auto complete
 - Use `up` and `down` to search history
-- Customize aliases in seperate file
+- Customize aliases in seperate file `~/.bash_aliases`
 - Show git branch if possible
 
 ### Screenshot
