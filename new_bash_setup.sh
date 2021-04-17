@@ -13,8 +13,14 @@ if [ -f ~/.profile ]; then
     cp ~/.profile ~/.profile.bak
 fi
 
+if [ -f ~/.bash_prompt ]; then
+    echo 'Backed up current ~/.bash_prompt to ~/.bash_prompt.bak'
+    cp ~/.bash_prompt ~/.bash_prompt.bak
+fi
+
 cp .bashrc_minimal ~/.bashrc
 cp .profile_minimal ~/.profile
+cp .bash_prompt ~/.bash_prompt
 
 source ~/.bashrc
 cd ~
