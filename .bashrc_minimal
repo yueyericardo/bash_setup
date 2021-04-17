@@ -13,7 +13,7 @@ LS_COLORS='di=95:fi=0'
 export LS_COLORS
 
 # bash prompt
-if [ -d "$HOME/.bash_prompt" ] ; then
+if [ -f "$HOME/.bash_prompt" ] ; then
     source "$HOME/.bash_prompt"
 fi
 
