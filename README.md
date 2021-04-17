@@ -15,6 +15,6 @@
 git clone https://github.com/yueyericardo/bash_setup.git
 cd bash_setup
 # will backup your old ~/.bashrc files at ~/.bashrc.bak
-# you may need to add few lines back to the new ~/.bashrc from the backed up one
 source new_bash_setup.sh
+# you may need to add few lines back to the new ~/.bashrc from the backed up one
 ```
