@@ -4,17 +4,17 @@ cp .bash_aliases ~/
 cp .inputrc ~/
 
 if [ -f ~/.bashrc ]; then
-    echo 'Backed up current ~/.bashrc to ~/.bashrc.bak'
+    echo 'Backed up: ~/.bashrc =======> ~/.bashrc.bak'
     cp ~/.bashrc ~/.bashrc.bak
 fi
 
 if [ -f ~/.profile ]; then
-    echo 'Backed up current ~/.profile to ~/.profile.bak'
+    echo 'Backed up: ~/.profile =======> ~/.profile.bak'
     cp ~/.profile ~/.profile.bak
 fi
 
 if [ -f ~/.bash_prompt ]; then
-    echo 'Backed up current ~/.bash_prompt to ~/.bash_prompt.bak'
+    echo 'Backed up: ~/.bash_prompt =======> ~/.bash_prompt.bak'
     cp ~/.bash_prompt ~/.bash_prompt.bak
 fi
 
@@ -24,5 +24,5 @@ cp .bash_prompt ~/.bash_prompt
 
 source ~/.bashrc
 
-echo
 echo Tips: Feel free to edit ~/.bash_aliases to add more aliases
+echo
