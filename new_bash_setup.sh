@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo
 cp .bash_aliases ~/
 cp .inputrc ~/
 
@@ -24,5 +25,5 @@ cp .bash_prompt ~/.bash_prompt
 
 source ~/.bashrc
 
-echo Tips: Feel free to edit ~/.bash_aliases to add more aliases
+echo Feel free to edit ~/.bash_aliases to add more aliases
 echo
