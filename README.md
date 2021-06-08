@@ -29,4 +29,4 @@ https://git.io/JZmY2 is a shortlink for [quick_bash_setup.sh](https://raw.github
 
 ### Bookmarklet
 Please vist [Bookmarklet](https://htmlpreview.github.io/?https://github.com/yueyericardo/bash_setup/blob/master/resc/bookmarklet.html)
- (Auto Copy above command to Clipboard)
+ (Which could click to copy above command to clipboard)
