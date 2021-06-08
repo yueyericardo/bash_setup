@@ -1,8 +1,12 @@
 #!/bin/bash
 
 echo
-cp .bash_aliases ~/
 cp .inputrc ~/
+
+if [ -f ~/.bash_aliases ]; then
+    echo 'Backed up: ~/.bash_aliases =======> ~/.bash_aliases.bak'
+    cp ~/.bash_aliases ~/.bash_aliases.bak
+fi
 
 if [ -f ~/.bashrc ]; then
     echo 'Backed up: ~/.bashrc =======> ~/.bashrc.bak'
@@ -19,6 +23,7 @@ if [ -f ~/.bash_prompt ]; then
     cp ~/.bash_prompt ~/.bash_prompt.bak
 fi
 
+cp .bash_aliases ~/.bash_aliases
 cp .bashrc_minimal ~/.bashrc
 cp .profile_minimal ~/.profile
 cp .bash_prompt ~/.bash_prompt
