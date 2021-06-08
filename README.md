@@ -27,5 +27,6 @@ source <(curl -L -s https://git.io/JZmY2) && exec bash
 https://git.io/JZmY2 is shortlink for [quick_bash_setup.sh](https://raw.githubusercontent.com/yueyericardo/bash_setup/master/quick_bash_setup.sh)
 
 
-### Bookmarklet (Copy above command to Clipboard)
+### Bookmarklet
 Please vist [Bookmarklet](https://htmlpreview.github.io/?https://github.com/yueyericardo/bash_setup/blob/master/resc/bookmarklet.html)
+ (Copy above command to Clipboard)
