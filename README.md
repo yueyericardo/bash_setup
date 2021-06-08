@@ -24,7 +24,7 @@ For example for Docker
 ```bash
 source <(curl -L -s https://git.io/JZmY2) && exec bash
 ```
-https://git.io/JZmY2 is shortlink for [quick_bash_setup.sh](https://raw.githubusercontent.com/yueyericardo/bash_setup/master/quick_bash_setup.sh)
+https://git.io/JZmY2 is a shortlink for [quick_bash_setup.sh](https://raw.githubusercontent.com/yueyericardo/bash_setup/master/quick_bash_setup.sh)
 
 
 ### Bookmarklet
