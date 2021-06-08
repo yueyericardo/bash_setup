@@ -1,0 +1,56 @@
+<head>
+    <style>
+        body {
+            background-color: #262626;
+            color: white;
+        }
+
+        .center {
+            position: fixed;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .label {
+            display: inline-block;
+            margin: 10px auto;
+            width: fit-content;
+            border-radius: 10px;
+            color: inherit;
+            background: #2172b8;
+        }
+
+        .label p {
+            padding: 10px 30px;
+            font-size: 50px;
+            color: white;
+            margin: 0;
+        }
+
+        .label a {
+            color: -webkit-link;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <p>
+            Click & Drag up to your Bookmarks Bar
+        </p>
+        <div class="label">
+            <p>
+                <a href="javascript: navigator.clipboard.writeText('source <(curl -L -s https://raw.githubusercontent.com/yueyericardo/bash_setup/master/bash.sh)');null;">
+                    Quick Bash Setup </a>
+            </p>
+        </div>
+    </div>
+
+</body>

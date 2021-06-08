@@ -25,3 +25,7 @@ For example for Docker
 source <(curl -L -s https://git.io/JZqht)
 ```
 https://git.io/JZqht is shortlink for [bash.sh](https://raw.githubusercontent.com/yueyericardo/bash_setup/master/bash.sh)
+
+
+### Bookmarklet
+Please vist [Bookmarklet](https://htmlpreview.github.io/?https://github.com/yueyericardo/bash_setup/blob/master/bookmarklet.html)
