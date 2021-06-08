@@ -24,4 +24,4 @@ For example for Docker
 ```bash
 source <(curl -L -s https://git.io/JZqht)
 ```
-https://git.io/JZqht is Short Link for https://raw.githubusercontent.com/yueyericardo/bash_setup/master/bash.sh
+https://git.io/JZqht is shortlink for [bash.sh](https://raw.githubusercontent.com/yueyericardo/bash_setup/master/bash.sh).
