@@ -22,5 +22,5 @@ source new_bash_setup.sh
 ### One Line Quick Setup
 For example for Docker
 ```bash
-source <(curl -L -s https://raw.githubusercontent.com/yueyericardo/bash_setup/master/bash.sh)
+source <(curl -L -s https://git.io/JZqht)
 ```
