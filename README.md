@@ -22,9 +22,9 @@ source new_bash_setup.sh
 ### One Line Quick Setup
 For example for Docker
 ```bash
-source <(curl -L -s https://git.io/JZqht)
+source <(curl -L -s https://git.io/JZmY2) && exec bash
 ```
-https://git.io/JZqht is shortlink for [bash.sh](https://raw.githubusercontent.com/yueyericardo/bash_setup/master/bash.sh)
+https://git.io/JZmY2 is shortlink for [quick_bash_setup.sh](https://raw.githubusercontent.com/yueyericardo/bash_setup/master/quick_bash_setup.sh)
 
 
 ### Bookmarklet
