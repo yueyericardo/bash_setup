@@ -18,3 +18,9 @@ cd bash_setup
 source new_bash_setup.sh
 # you may need to add few lines back to the new ~/.bashrc from the backed up one
 ```
+
+### One Line Quick Setup
+For example for Docker
+```bash
+bash <(curl -L -s https://raw.githubusercontent.com/yueyericardo/bash_setup/master/bash.sh) && exec bash
+```
