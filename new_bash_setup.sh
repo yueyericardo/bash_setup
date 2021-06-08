@@ -23,7 +23,6 @@ cp .profile_minimal ~/.profile
 cp .bash_prompt ~/.bash_prompt
 
 source ~/.bashrc
-cd ~
 
 echo
 echo Tips: Feel free to edit ~/.bash_aliases to add more aliases
